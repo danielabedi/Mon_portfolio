@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color_red:#FF0000;
+    --gray:rgb(119, 116, 116) ;
+    --o-object-fit: inherit;
+    --ms-word-wrap: 15px;
+    --whidh:30%;
+    --font-size:1em;
+}
+body {
+          width: 100%;
+          margin: 0;
+          line-height: normal;
+  }
+header {
+   
+          background: #fff;
+          width: 100%;
+          height: 116.96px;
+          border-bottom: 1px #b5b2b2 solid;
+  }
+
+  .logo{
+          position: relative;
+          top: 50px;
+          left: 5%;
+          width: 145.63px;
+          height: 44px;
+  }
+  .menu {
+          position: relative;
+          top: 10px;
+          left: 53%;
+          width: 284px;
+          height: 10px;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          gap: 120px;
+          font-size: var(--font-size-lg);
+          color: var(--color-black);
+  }
+  .name {
+          position: relative;
+          top: 120px;
+          left: 14%;
+          font-size: 3.5em;
+          font-weight: 800;
+          display: inline-block;
+  }
+  .name_red{
+          color: #FF0000;
+  }
+  .full_stack_dev {
+          position: relative;
+          top: 133.71px;
+          left: 14%;
+          font-size: var(--font-size);
+          color: #060618;
+          width: 353.04px;
+          height: 22.86px;
+  }
+  .im-developper {
+          position: relative;
+          top: 140px;
+          left: 14%;
+          font-size: 16px;
+          font-weight: 500;
+          color: var(--gray);
+          width: 350px;
+          height: 43px;
+  }
+  .primesend {
+    position: relative;
+    left: 14%;   
+} 
+  .picture{
+          box-sizing: border-box;
+          position: absolute;
+          width: 300px;
+          height: 280px;
+          right: 22%;
+          top: 22%;
+   }
+   
+  .hello {
+    top: 50%;
+    left: 14%;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+    
+   
+  }
+  .menu1 {
+          position: relative;
+          cursor: pointer;
+  }
+  .menu1:hover{
+          background-color: rgb(171, 68, 68);
+          width: 80px;border-radius: 4px;
+          height: 25px;
+  } 
+  .down {
+                position: absolute;
+                top: 55%;
+                left: 43%;
+                width: 200px;
+                height: 77px;
+   }
+  .menu30 {
+                position: relative;
+                color: var(--gray);font-size: 1em;
+                font-weight: 600; padding-left: 35px;
+  }
+  .pajamasscroll-down-icon4 {
+                width: 14px;margin-left: 10px;
+                height: 15px;
+  }
+  .me{
+                font-size:2em;
+                color: #3d3d3d;
+                font-weight: bold;margin: 0 22px 0;
+  }
+  .rectangle-icon {
+          position: relative;
+          top: 359px;
+          left: 400px;
+          width: 220px;
+          height: 200px;
+          object-fit: contain;
+  }
+  .my_intro{
+            position: relative;
+            margin: 110px 860px 0;
+            font-size: var(--font-size-xs);
+            color: var(--gray);
+            font-weight: 300;
+  }
+  .lda-1-icon {
+            position: relative;
+            width: 140px;
+            height: 99px;
+            object-fit: contain;
+            cursor: pointer;
+  }
+  .rectangle-parent {
+          position: relative;
+          top: 30px;
+          left: 40%;
+          width: 460px;
+          height: 120px;
+  }
+  .developper{
+          position: relative;
+          font-size: 16px;
+          font-weight: 500;
+          color: var(--gray);
+          width: 350px;
+          height: 43px;
+  }
+  .menu10 {
+          position: relative;
+          width: 360px;
+          height: 50;
+          top: 20px;
+          left: 41%;
+          font-size: 6.72px;
+          font-weight: 500;
+          color: var(--color-darkslategray-100);
+  }
+  .down_cv{
+          position: relative;
+          bottom: 6px;
+  }
+ .primesend-icon {
+          position: relative;
+          height: 25px;
+  } 
+  .menu-group {
+            position: relative;
+            width: 130px;
+            height: 35px;
+            background-color: #000000;
+            color: white;
+            border: #060618 solid;border-radius: 7px;
+            top: 21px;
+            left: 41%;
+            cursor: pointer;
+  }
+  strong{
+    color: #2b2a2a;
+    bottom: 30px;
+    font-size: 3em;
+  }
+  .my-technical-level {
+          width: 190px;
+          height: 90px;
+          position: relative;text-align: center;
+          left: 42%;
+          font-weight: 500;
+          top: 90px;
+          color: #817d7d;
+ }
+ .skills {
+  position: relative;
+  display: flex;
+  flex-direction: column;gap: 30px;
+  top: 119px; 
+  left: 25%;
+  width: 850px;
+  height: 276px;
+  font-size: var(--font-size-9xl);
+  color: var(--color);
+}
+ .icon_skills{
+  width: 790px;
+  height: 130px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+ }
+ figure{
+  width: 160px;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 5px;
+  border: 1px #78787a solid;
+ }
